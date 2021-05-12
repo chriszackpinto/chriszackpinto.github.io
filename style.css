@@ -212,6 +212,9 @@ body {
 .social-item:hover svg.icon-github path {
   fill: #767676;
 }
+.social-item:hover svg.icon-codepen path {
+  fill: #fcd000;
+}
 .social-item:hover svg.icon-linkedin path {
   fill: #2088af;
 }
