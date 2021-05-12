@@ -119,22 +119,33 @@ body {
   justify-content: center;
 }
 .project-item {
+  position: relative;
   display: grid;
   place-items: center;
   width: clamp(250px, 40vw, 350px);
   height: 200px;
   margin: 2rem;
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  padding: 40px;
+  background: cover no-repeat center center;
   cursor: pointer;
 }
-.layer img {
+.project-item::after {
+  position: absolute;
+  content: "";
+  background: rgb(22, 173, 227);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.3;
+  transition: all 0.25s ease;
+}
+.project-item:hover::after {
+  background-color: rgb(16, 109, 143);
+}
+.project-item img {
   z-index: 3;
-  max-height: 4rem;
-  max-width: 100%;
+  position: absolute;
+  width: 70%;
 }
 .project1 {
   background-image: url(./img/bg-portfolio.jpg);
@@ -148,21 +159,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.layer {
-  background-color: rgba(22, 173, 227, 0.4);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: all 0.25s ease;
-  display: grid;
-  place-items: center;
-  padding: 3rem;
-}
-.layer:hover {
-  background-color: rgba(16, 109, 143, 0.4);
-}
+
 
 /* Footer */
 .contact {
