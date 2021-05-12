@@ -1,10 +1,10 @@
 "use strict:";
 
-main = document.querySelector(".main");
+const mainTitle = document.querySelector(".main-title");
+const logo = document.querySelector(".header-nav-logo");
+const link = document.querySelector(".header-nav-link");
 
-const modal = document.querySelector(`.modal`);
-const overlay = document.querySelector(`.overlay`);
-const btnCloseModal = document.querySelector(`.close-modal`);
+const tl = new TimelineMax();
 
 // Hide background on scroll
 window.onscroll = function () {
@@ -16,8 +16,25 @@ function scrollFunction() {
     document.body.scrollTop > 300 ||
     document.documentElement.scrollTop > 300
   ) {
-    main.style.backgroundColor = "#1e1e20";
+    mainTitle.style.backgroundColor = "#1e1e20";
   } else {
-    main.style.backgroundColor = "#16ade3";
+    mainTitle.style.backgroundColor = "#16ade3";
   }
 }
+
+//gsap
+
+tl.fromTo(
+  mainTitle,
+  1,
+  { height: "0%" },
+  { height: "100%", ease: "bounce.out" }
+)
+  .fromTo(
+    mainTitle,
+    1.2,
+    { width: "100%" },
+    { width: "90%", ease: "bounce.out" }
+  )
+  .fromTo(logo, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5")
+  .fromTo(link, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5");
