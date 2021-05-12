@@ -6,6 +6,16 @@ const link = document.querySelector(".header-nav-link");
 
 const tl = new TimelineMax();
 
+tl.fromTo(mainTitle, 1, { height: "0%" }, { height: "100%", ease: "none" })
+  .fromTo(
+    mainTitle,
+    1.2,
+    { width: "100%" },
+    { width: "90%", ease: "bounce.out" }
+  )
+  .fromTo(logo, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5")
+  .fromTo(link, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5");
+
 // Hide background on scroll
 window.onscroll = function () {
   scrollFunction();
@@ -21,20 +31,3 @@ function scrollFunction() {
     mainTitle.style.backgroundColor = "#16ade3";
   }
 }
-
-//gsap
-
-tl.fromTo(
-  mainTitle,
-  1,
-  { height: "0%" },
-  { height: "100%", ease: "bounce.out" }
-)
-  .fromTo(
-    mainTitle,
-    1.2,
-    { width: "100%" },
-    { width: "90%", ease: "bounce.out" }
-  )
-  .fromTo(logo, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5")
-  .fromTo(link, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=0.5");
