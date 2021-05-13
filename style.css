@@ -111,6 +111,9 @@ body {
   padding: 3rem 0 2rem;
   font-size: 1.5rem;
 }
+.projects-title span {
+  color: #16ade3;
+}
 .projects-list {
   display: flex;
   flex-wrap: wrap;
