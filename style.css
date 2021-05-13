@@ -16,6 +16,7 @@ img {
 }
 html {
   font-family: sans-serif;
+   scroll-behavior: smooth;
 }
 body {
   background: #1e1e20;
