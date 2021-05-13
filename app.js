@@ -2,7 +2,7 @@
 
 const mainTitle = document.querySelector(".main-title");
 const logo = document.querySelector(".header-nav-logo");
-const link = document.querySelector(".header-nav-link");
+const link = document.querySelector(".header-nav-list");
 
 const tl = new TimelineMax();
 
