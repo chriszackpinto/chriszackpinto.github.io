@@ -155,12 +155,22 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s all ease-in-out;
 }
 .project2 {
   background: url(./img/bg-beachcycle.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s all ease-in-out;
+}
+.appear {
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 /* Footer */
