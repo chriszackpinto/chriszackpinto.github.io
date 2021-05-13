@@ -79,7 +79,7 @@ body {
   align-items: center;
   min-height: 420px;
   color: #fff;
-  width: 100vw;
+  width: 100%;
 }
 .main-title {
   background-color: #16ade3;
