@@ -31,3 +31,16 @@ function scrollFunction() {
     mainTitle.style.backgroundColor = "#16ade3";
   }
 }
+
+function scrollApp() {
+  let projectItem1 = document.querySelector(`.project1`);
+  let projectItem2 = document.querySelector(`.project2`);
+  let itemPosition = projectItem1.getBoundingClientRect().top;
+  let screenPosition = window.innerHeight / 1.2;
+
+  if (itemPosition < screenPosition) {
+    projectItem1.classList.add("appear");
+    projectItem2.classList.add("appear");
+  }
+}
+window.addEventListener(`scroll`, scrollApp);
