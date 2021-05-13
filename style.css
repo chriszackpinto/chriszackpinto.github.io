@@ -88,7 +88,7 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
-  transition: all 0.5s ease;
+  transition: background-color 0.5s ease;
 }
 .main-title h1 {
   margin: 0;
