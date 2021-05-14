@@ -253,6 +253,7 @@ body {
 }
 .about-me p a {
   color: #16ade3;
+  transition: color 0.25s ease-out;
 }
 .about-me p a:hover {
   color: rgb(11, 87, 114);
