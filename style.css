@@ -254,7 +254,7 @@ body {
 .about-me p a {
   color: #16ade3;
 }
-.about-me p a:hover span {
+.about-me p a:hover {
   color: rgb(11, 87, 114);
 }
 
