@@ -3,7 +3,8 @@
 
 Portfolio page with CSS and a bit a Javascript!
 
-![port1](https://user-images.githubusercontent.com/81745636/117275154-609c5280-ae7b-11eb-9b21-e2b98e1ce1a1.png)
+![IMG_5898](https://user-images.githubusercontent.com/81745636/118314839-51b83e80-b512-11eb-848f-a0445f4ae96f.png)
 
-![port3](https://user-images.githubusercontent.com/81745636/117275201-6b56e780-ae7b-11eb-9298-e6b7e589c861.png)
-![port2](https://user-images.githubusercontent.com/81745636/117275187-672aca00-ae7b-11eb-9b47-51cb79c7f73c.png)
+![IMG_5899](https://user-images.githubusercontent.com/81745636/118314853-554bc580-b512-11eb-9a75-89e99f1e624b.png)
+
+![IMG_5897](https://user-images.githubusercontent.com/81745636/118314854-58df4c80-b512-11eb-9114-7f24a720a7fc.png)
