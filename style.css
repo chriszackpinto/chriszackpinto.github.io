@@ -227,6 +227,11 @@ body {
 .social-item:hover svg.icon-codepen path {
   fill: #fcd000;
 }
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: #bebebe;
+}
 
 /* About */
 .about-me {
