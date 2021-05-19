@@ -2,14 +2,29 @@
 <html lang="en">
   <head>
     <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-ga('create', 'UA-G-EWF2VFNB3K-Y', 'auto');
-ga('send', 'pageview');
-</script>
+      ga("create", "UA-G-EWF2VFNB3K-Y", "auto");
+      ga("send", "pageview");
+    </script>
     <!-- Meta Charset -->
     <meta charset="UTF-8" />
     <!-- Meta Edge -->
@@ -19,7 +34,7 @@ ga('send', 'pageview');
     <!-- Meta Description -->
     <meta
       name="description"
-      content="A portfolio page of Chris by Zackendev focused on Web Development as a User Interface Developer"
+      content="A portfolio page of Chris Zack Pinto focused on Web Development as a User Interface Developer"
     />
     <!-- Meta Keywords -->
     <meta
@@ -57,9 +72,15 @@ ga('send', 'pageview');
   <body>
     <header>
       <nav class="header-nav">
-        <a href="/" class="header-nav-logo" title="Chris' Portfolio">Chris <span>portfolio</span></a>
+        <a href="/" class="header-nav-logo" title="Chris' Portfolio"
+          >Chris <span>portfolio</span></a
+        >
         <ul class="header-nav-list">
-          <li><a href="/about.html" class="header-nav-link" title="About Page">about</a></li>
+          <li>
+            <a href="/about.html" class="header-nav-link" title="About Page"
+              >about</a
+            >
+          </li>
         </ul>
       </nav>
       <div class="main">
@@ -75,18 +96,28 @@ ga('send', 'pageview');
       <div class="projects-list">
         <a
           class="project-item project1"
-          href="https://github.com/zackendev/zackendev.github.io"
-          target="_blank" title="My Portfolio Github Repository"
+          href="https://github.com/chriszackpinto/chriszackpinto.github.io"
+          target="_blank"
+          title="My Portfolio Github Repository"
         >
-          <img class="project-img" src="./img/img-portfolio.png" alt="portfolio background" />
+          <img
+            class="project-img"
+            src="./img/img-portfolio.png"
+            alt="portfolio background"
+          />
         </a>
 
         <a
           class="project-item project2"
-          href="https://github.com/zackendev/letsCycle"
-          target="_blank" title="Lets Cycle Github Repository"
+          href="https://github.com/chriszackpinto/letsCycle"
+          target="_blank"
+          title="Lets Cycle Github Repository"
         >
-          <img class="project-img" src="./img/img-beachcycle.png" alt="beach background" />
+          <img
+            class="project-img"
+            src="./img/img-beachcycle.png"
+            alt="beach background"
+          />
         </a>
       </div>
     </section>
@@ -96,13 +127,18 @@ ga('send', 'pageview');
           <h2>Looking for a user interface developer?</h2>
         </div>
         <div class="contact-link" target="_blank">
-          <a href="mailto:pintozackchris@gmail.com" title="Send an Email!">Let's chat!</a>
+          <a href="mailto:pintozackchris@gmail.com" title="Send an Email!"
+            >Let's chat!</a
+          >
         </div>
       </div>
       <div class="social">
         <ul class="social-list">
           <li class="social-item">
-            <a href="https://github.com/zackendev" target="_blank" title="Github Profile"
+            <a
+              href="https://github.com/chriszackpinto"
+              target="_blank"
+              title="Github Profile"
               ><svg
                 class="icon-github"
                 xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +150,10 @@ ga('send', 'pageview');
             ></a>
           </li>
           <li class="social-item">
-            <a href="https://codepen.io/zackendev" target="_blank" title="Codepen Profile"
+            <a
+              href="https://codepen.io/zackendev"
+              target="_blank"
+              title="Codepen Profile"
               ><svg
                 class="icon-codepen"
                 xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +167,8 @@ ga('send', 'pageview');
           <li class="social-item">
             <a
               href="https://www.linkedin.com/in/chriszackpinto/"
-              target="_blank" title="LinkedIn Profile"
+              target="_blank"
+              title="LinkedIn Profile"
               ><svg
                 class="icon-linkedin"
                 xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +181,6 @@ ga('send', 'pageview');
           </li>
         </ul>
       </div>
-      <div class="copyright">&copy;Made by zackendev</div>
     </footer>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"
