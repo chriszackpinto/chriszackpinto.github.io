@@ -2,7 +2,7 @@
 
 const mainTitle = document.querySelector(".main-title");
 const logo = document.querySelector(".header-nav-logo");
-const link = document.querySelector(".header-nav-list");
+const link = document.querySelector(".header-nav-about");
 
 const projects = document.querySelector(".projects");
 const projectList = document.querySelector(".projects-list");
@@ -22,7 +22,7 @@ tl.fromTo(mainTitle, 1, { height: "0%" }, { height: "100%", ease: "none" })
 
 const bgColor = function (entries) {
   const [entry] = entries;
-  if (!entry.isIntersecting) mainTitle.style.backgroundColor = "#16ade3";
+  if (!entry.isIntersecting) mainTitle.style.backgroundColor = "#138db9";
   else mainTitle.style.backgroundColor = "#1e1e20";
 };
 
