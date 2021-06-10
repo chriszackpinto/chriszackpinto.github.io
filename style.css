@@ -8,8 +8,10 @@ a {
   background-color: transparent;
 }
 a:active,
-a:hover {
+a:hover,
+a:visited {
   outline: 0;
+  color: inherit;
 }
 body {
   font-family: sans-serif;
@@ -264,13 +266,15 @@ body {
   font-size: 2rem;
 }
 .tools-1,
-.tools-2 {
+.tools-2,
+.tools-3 {
   display: flex;
   width: 100%;
   align-items: baseline;
 }
 .tools-1a,
-.tools-2a {
+.tools-2a,
+.tools-3a {
   color: var(--tertiary);
   font-weight: bold;
   font-size: 1rem;
@@ -279,7 +283,8 @@ body {
   margin: 1rem 0;
 }
 .tools-1b,
-.tools-2b {
+.tools-2b,
+.tools-3b {
   flex: 1;
   display: flex;
   flex-wrap: wrap;
@@ -287,7 +292,8 @@ body {
   font-size: 1.25rem;
 }
 .tools-1b h4,
-.tools-2b h4 {
+.tools-2b h4,
+.tools-3b h4 {
   flex: 0 1 200px;
   margin: 1rem;
 }
@@ -328,12 +334,14 @@ body {
 
 @media screen and (max-width: 600px) {
   .tools-1,
-  .tools-2 {
+  .tools-2,
+  .tools-3 {
     display: block;
     margin-bottom: 30px;
   }
   .tools-1b,
-  .tools-2b {
+  .tools-2b,
+  .tools-3b {
     display: block;
   }
 }
