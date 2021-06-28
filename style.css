@@ -291,6 +291,7 @@ body {
   justify-content: flex-start;
   font-size: 1.25rem;
 }
+
 .tools-1b h4,
 .tools-2b h4,
 .tools-3b h4 {
@@ -303,6 +304,14 @@ body {
 }
 .cert-1:hover {
   color: var(--secondary);
+}
+
+.tools-3b {
+  flex-direction: column;
+}
+.tools-3b h4 {
+  margin-bottom: 10px;
+  flex: 0;
 }
 
 /* Responsive */
